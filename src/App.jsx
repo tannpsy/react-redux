@@ -5,6 +5,8 @@ import './App.css'
 import { Provider, useDispatch, useSelector } from 'react-redux'
 import { decrement, increment } from './store/counter/actions'
 
+
+//test
 function App() {
   const count = useSelector(state => state.count);
   const dispatch = useDispatch();

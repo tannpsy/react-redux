@@ -1,5 +1,2 @@
-import React from "react";
-
-export const increment = () => ({type: 'increment'});
-
-export const decrement = () => ({type: 'decrement'});
+export const increment = () => ({ type: 'increment' });
+export const decrement = () => ({ type: 'decrement' });
